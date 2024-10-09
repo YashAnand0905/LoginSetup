@@ -30,7 +30,7 @@ dependencies {
 
     // MySQL JDBC Driver
 
-    implementation files('libs/mysql-connector-java-8.1.0.jar')
+    implementation 'mysql:mysql-connector-java:8.0.33'
     // Test Dependencies
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
